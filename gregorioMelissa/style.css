@@ -1,4 +1,4 @@
-body{background-color: #e0d1d1;
+body{background-color: #ffffff;
 color: #3e15adda;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: 0;
@@ -44,11 +44,11 @@ main{
 }
 
 main section {
-    background-color: #8b98b6;
+    background-color: #b68b9f;
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border-left: 5px solid #bb63a3;
+    border-left: 5px solid #ab4b91;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
     overflow: hidden;
 }
@@ -59,6 +59,8 @@ main section h2{
     border-bottom: 1px solid #d95c5c ;
     padding-bottom: 10px;
 }
+main section p { color: #212529;
+text-align: justify;}
 
 main section img{
     max-width: 100%;
@@ -68,11 +70,21 @@ main section img{
     border: 2px solid #afa1a1;
     border-radius: 4px;
 } 
+main section img.razas-gatos{
+    max-width: 100%;
+    width: auto;
+    max-height: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #afa1a1;
+    border-radius: 4px;
+}
 
 #carouselExample{
     max-width: 60%;
     margin: 0 auto;
 }
+
 
 
 footer ul{
@@ -88,8 +100,8 @@ footer ul li {
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #afa1a1;
-    color: #1b0d56;
+    background-color: #F7F4FA;
+    color: #ffffff;
     font-size: 0.9rem;
     border-top: 1px solid #000;
     margin-top: 50px;
